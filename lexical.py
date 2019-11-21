@@ -8,7 +8,7 @@ def identifier(user):
     else:
         res="NOT a Identifier."
     return res
-
+#I haved changed
 def digit(user):
     rgx=r"^[0-9]+$"
     flg=re.match(rgx, user)
